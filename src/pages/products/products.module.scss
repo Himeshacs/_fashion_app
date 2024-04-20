@@ -1,0 +1,8 @@
+@import "../../styles/config";
+
+.categoryTitleStyle {
+  font-size: $largeFontSize;
+  font-weight: $fontBold;
+  padding: 2% 0 0 0;
+  text-transform: capitalize;
+}

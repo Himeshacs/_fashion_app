@@ -1,0 +1,27 @@
+@import "../../styles/config";
+
+.cardStyle {
+  border-radius: $borderRadius;
+  text-align: center;
+  padding: 15% 0;
+
+  width: 100%;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 20px 20px 0px;
+
+  &[data-category="men's clothing"] {
+    background-color: $green;
+  }
+
+  &[data-category="women's clothing"] {
+    background-color: $pink;
+  }
+}
+
+.cardTitleStyle {
+  font-size: $largeFontSize;
+  font-weight: $fontBold;
+  color: $light;
+  text-decoration: none;
+  text-transform: capitalize;
+}

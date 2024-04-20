@@ -1,0 +1,59 @@
+@import "../../styles/config";
+
+.cardStyle {
+  border-radius: $borderRadius;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 20px 20px 0px;
+}
+
+.cardTitleStyle {
+  text-align: center;
+  font-weight: $fontBold;
+  font-size: $mediumFontSize;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  height: 7vh;
+  margin: 0% 5%;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.cardMediaStyle {
+  height: 30vh;
+  margin: 10% 20%;
+}
+
+.cardPriceStyle {
+  font-size: $mediumFontSize;
+  color: $blue;
+  font-weight: $fontBold;
+}
+
+.cardDescriptionStyle {
+  font-size: $smallFontSize;
+  font-weight: $fontRegular;
+  margin: 5% 10%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.cardContentStyle {
+  height: auto;
+  border-radius: $borderRadius;
+  text-align: center;
+  padding: 2% 5%;
+
+  &[data-category="men's clothing"] {
+    background-color: $green;
+  }
+
+  &[data-category="women's clothing"] {
+    background-color: $pink;
+  }
+}

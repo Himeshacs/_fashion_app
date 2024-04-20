@@ -1,0 +1,12 @@
+@import "../../styles/config";
+
+.headerStyle {
+  background-color: $gray;
+  align-items: center;
+}
+
+.headerTitleStyle {
+  color: $dark;
+  font-weight: $fontBold;
+  font-size: $extraLargeFontSize;
+}
