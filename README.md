@@ -3,7 +3,6 @@
 - [Commands to Run the App](#commands-to-run-the-app)
 - [Features](#features)
 - [Technical Details](#technical-details)
-- [Folder Structure](#folder-structure)
 
 ## Commands to Run the App
 
